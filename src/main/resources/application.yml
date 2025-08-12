@@ -5,13 +5,13 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/simpleerp?useSSL=false&serverTimezone=UTC
     username: root
-    password: sua_senha
+    password: 1901ea37986a9ea9
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: create-drop  # Use 'update' em produção
+      ddl-auto: update  # Use 'update' em produção
     show-sql: true
     properties:
       hibernate:
